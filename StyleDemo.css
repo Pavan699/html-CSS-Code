@@ -1,5 +1,5 @@
 .MAIN{
-    background: black;
+    background: #744d4d;
 }
 .Header{
     display: flex;
@@ -64,10 +64,25 @@
     align-items: center;
     justify-content: center;
     color: blue;
-    margin: auto;
     height: 40px;
+    margin: 6px;
 }
-
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    max-height: auto;
+    background-color: rgb(49, 46, 212);
+    margin: 6px;
+}
+.cards img {
+    margin: 10px;
+    border: 3px solid rgb(250, 16, 16);
+    box-shadow: 8px 11px 8px 0px rgb(0 0 0 / 30%);
+    max-width: 21vw;
+}
 
 
 
